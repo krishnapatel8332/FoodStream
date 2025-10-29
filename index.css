@@ -1,0 +1,155 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.nav-tools {
+  display: flex;
+  list-style-type: none;
+}
+.logo {
+  width: 100px;
+}
+.nav-tools > li {
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+.nav-bar {
+  padding: 0px 20px;
+}
+.res-card {
+  width: 250px;
+  background-color: #f0f0f0;
+}
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.res-logo {
+  width: 240px;
+  height: 200px;
+  padding: 5px;
+}
+.text {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+.rest-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-left: 40px;
+}
+.shimmer-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  padding-left: 40px;
+}
+.shimmer-card {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(213, 210, 210);
+}
+.avgRate {
+  background-color: rgb(26, 189, 99);
+}
+.shimmer-img {
+  width: 240px;
+  height: 180px;
+  background-color: #f0f0f0;
+  margin: 5px;
+}
+.shimmer-name {
+  width: 110px;
+  height: 27px;
+  background-color: #f0f0f0;
+  margin-top: 8px;
+  display: flex;
+  justify-self: center;
+}
+.shimmer-rate {
+  width: 60px;
+  height: 20px;
+  background-color: #f0f0f0;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.btnlogin {
+  width: 60px;
+  height: 20px;
+  background-color: rgb(241, 239, 239);
+  cursor: pointer;
+}
+.btnlogin:hover {
+  border: 1px solid rgb(149, 12, 12);
+}
+.filter {
+  padding: 15px;
+  display: flex;
+}
+.menu-container {
+  border: 2px;
+  height: 100px;
+  width: 800px;
+}
+.card {
+  width: 280px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 8px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 0 12px;
+}
+
+.card-price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-btn {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card-btn:hover {
+  background-color: #e68900;
+}
